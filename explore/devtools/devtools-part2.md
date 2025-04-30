@@ -1,0 +1,2 @@
+1. The bug was that the values that were being inputted was interpreted as strings, so the numbers would just be concatenated instead of actually adding the sum.
+2. I fixed the issue by explicity casting num1 and num2 to be a number.
